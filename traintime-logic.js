@@ -1,13 +1,16 @@
 
+
+  // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAnZCcWcRcKeqgU8w6p_Ow4JyBqRSbvmAk",
     authDomain: "train-time-mpd.firebaseapp.com",
     databaseURL: "https://train-time-mpd.firebaseio.com",
     projectId: "train-time-mpd",
-    storageBucket: "",
+    storageBucket: "train-time-mpd.appspot.com",
     messagingSenderId: "1031072511978"
   };
   firebase.initializeApp(config);
+
 
   var trainData = firebase.database();
   
