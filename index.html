@@ -5,12 +5,22 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Train-Time</title>
+  <header>TrainTime</header>
 
-<script src="https://www.gstatic.com/firebasejs/5.8.4/firebase.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<script src="https://rawgit.com/moment/moment/2.2.1/min/moment.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Firebase Reference -->
+  <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+  <!-- Moment.js Reference -->
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
 
 </head>
 <body>
@@ -23,7 +33,7 @@
         <div class="panel-heading">
           <h3 class="panel-title"><strong>Current Train Schedule</strong></h3>
         </div>
-        <div class="panel-body">
+        <div class="card-body">
           <table class="table table-hover" id='train-table'>
             <thead>
               <tr>
